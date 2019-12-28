@@ -1,0 +1,345 @@
+@media (min-width: 375px) and (orientation: portrait) {
+  header .nav ul a {
+    font-size: 23px;
+  }
+  header .active {
+    right: 60px;
+    top: 3%;
+  }
+  header i {
+    position: absolute;
+    right: 8%;
+    top: 5%;
+    font-size: 40px;
+  }
+  header i.show {
+    display: block;
+  }
+  header .header-text h1 {
+    font-size: 60px;
+  }
+  header .header-text h2 {
+    font-size: 25px;
+  }
+  .about h2 {
+    font-size: 25px;
+  }
+  .about p {
+    font-size: 19px;
+  }
+  .about span {
+    padding: 25px 0;
+    font-size: 22px;
+  }
+  .team img.gray {
+    left: -100%;
+  }
+  .gallery-section h2 {
+    font-size: 25px;
+  }
+  .contact h2 {
+    font-size: 25px;
+  }
+  .contact .contact-form-text {
+    font-size: 16px;
+  }
+  .contact .contact-form-btn {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 414px) and (orientation: portrait) {
+  header .active {
+    top: 3.5%;
+  }
+  .team img.gray {
+    left: -80%;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  header .nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  header .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    list-style: none;
+  }
+  header .nav ul li {
+    width: 100%;
+  }
+  header .nav ul li a {
+    width: 100%;
+    text-align: center;
+  }
+  header i {
+    position: fixed;
+    right: -50px;
+  }
+  header .header-text h1 {
+    font-size: 80px;
+  }
+  header .header-text h2 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+  .about span {
+    font-size: 25px;
+  }
+  .team img.gray {
+    left: -55%;
+  }
+  .team h3 {
+    font-size: 4rem;
+  }
+  .team h4 {
+    font-size: 2rem;
+  }
+  .gallery-section {
+    padding: 60px 20px;
+  }
+  .gallery-section h2 {
+    font-size: 30px;
+  }
+  .gallery-section .image {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    padding: 5px;
+  }
+  .contact h2 {
+    font-size: 30px;
+  }
+  .contact .contact-form-text {
+    font-size: 20px;
+  }
+  .contact .contact-form-btn {
+    font-size: 20px;
+    padding: 15px 55px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  header .nav ul li a {
+    font-size: 25px;
+  }
+  .header-text h1 {
+    font-size: 100px;
+  }
+  .header-text h2 {
+    font-size: 35px;
+  }
+  .about h2 {
+    font-size: 40px;
+  }
+  .about span {
+    font-size: 28px;
+  }
+  .gallery-section {
+    padding: 60px 20px;
+  }
+  .gallery-section h2 {
+    font-size: 40px;
+  }
+  .gallery-section .image {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+    padding: 5px;
+  }
+  .contact h2 {
+    font-size: 40px;
+  }
+  .contact .contact-form-text {
+    font-size: 25px;
+  }
+  .contact .contact-form-btn {
+    font-size: 25px;
+    padding: 15px 55px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 568px) and (orientation: landscape) {
+  header .nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  header .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    list-style: none;
+  }
+  header .nav ul li {
+    width: 100%;
+  }
+  header .nav ul li a {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+  header i {
+    position: fixed;
+    right: -50px;
+  }
+  header .header-text h1 {
+    font-size: 50px;
+  }
+  header .header-text h2 {
+    font-size: 20px;
+  }
+  .about h2 {
+    font-size: 25px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  .about span {
+    font-size: 20px;
+  }
+  .team img.color {
+    right: 10%;
+    height: 50%;
+  }
+  .team img.gray {
+    left: -10%;
+    height: 110%;
+  }
+  .team h3 {
+    font-size: 2.5rem;
+  }
+  .team h4 {
+    font-size: 1.5rem;
+  }
+  .gallery-section {
+    padding: 60px 20px;
+  }
+  .gallery-section h2 {
+    font-size: 25px;
+  }
+  .gallery-section .image {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    padding: 5px;
+  }
+  .gallery-section .image img {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .gallery-section .image:hover img {
+    -webkit-transform: scale(1.4) rotate(15deg);
+            transform: scale(1.4) rotate(15deg);
+  }
+  .contact h2 {
+    font-size: 25px;
+  }
+  .contact .contact-form-text {
+    font-size: 15px;
+  }
+  .contact .contact-form-btn {
+    font-size: 18px;
+    padding: 15px 55px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 812px) and (orientation: landscape) {
+  header .nav ul li a {
+    font-size: 18px;
+  }
+  .team img.gray {
+    left: 5%;
+    height: 110%;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  header .nav ul li a {
+    font-size: 18px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  header .nav ul li a:hover {
+    font-size: 22px;
+    color: pink;
+  }
+  header i {
+    position: fixed;
+    right: -50px;
+  }
+  header .header-text h1 {
+    font-size: 70px;
+  }
+  header .header-text h2 {
+    font-size: 23px;
+  }
+  .about h2 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+  .about span {
+    font-size: 22px;
+    padding: 40px 0;
+  }
+  .team img.color {
+    right: 5%;
+  }
+  .team img.gray {
+    left: -10%;
+  }
+  .team h3 {
+    font-size: 3rem;
+  }
+  .team h4 {
+    font-size: 2.5rem;
+  }
+  .gallery-section h2 {
+    font-size: 30px;
+  }
+  .gallery-section .image {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+  }
+  .contact h2 {
+    font-size: 30px;
+  }
+  .contact .contact-form-text {
+    font-size: 15px;
+  }
+  .contact .contact-form-btn {
+    font-size: 18px;
+    padding: 15px 55px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=style3.css.map */

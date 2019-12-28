@@ -1,0 +1,274 @@
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Playfair Display SC', serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+html {
+    font-family: oswald;
+    font-size: 10px;
+    background-color: #f1f1f1;
+}
+
+//HEADER & NAV SECTION
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: table; //vertical h1 position on a parent
+    // background-image: url(../Photos/header/startup-849804_1280.jpg);
+    background-size: cover;
+    background-position: 55% 50%;
+    position: relative;
+
+    .nav {
+        position: fixed;
+        right: -170px;
+        top: 20px;
+        width: 30%;
+        height: 35%;
+        // background-color: yellow;
+        transition: .3s linear;
+
+        ul {
+            list-style: none;
+
+            a {
+                display: block;
+                padding: 10%;
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .fas {
+        display: none;
+    }
+
+    .active {
+        right: 60px;
+    }
+
+    i {
+        position: absolute;
+        right: 8%;
+        top: 5%;
+        font-size: 30px;
+
+        &.show {
+            display: block;
+        }
+    }
+
+    .header-text {
+        //vertical h1 position on a child
+        display: table-cell;
+        vertical-align: middle;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
+
+//ABOUT SECTION
+
+.about {
+
+    h2 {
+        padding-top: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333;
+        font-size: 20px;
+    }
+
+    p {
+        padding: 0 20px 20px 20px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    span {
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+//TEAM SECTION
+.team {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ccc;
+    position: relative;
+
+    img.color {
+        position: absolute;
+        bottom: 0;
+        right: -5%;
+        height: 36%;
+        z-index: 1;
+        animation: color 4s linear infinite;
+    }
+
+    img.gray {
+        position: absolute;
+        bottom: 0;
+        left: -70%;
+        height: 110%;
+        opacity: 0.2;
+        animation: gray 4s linear infinite;
+    }
+
+    .member {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        animation: text 4s linear infinite;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+//GALLERY SECTION
+
+.gallery-section {
+    width: 100%;
+    padding: 60px 0 0 0;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    // padding: 0 20px;
+}
+
+.gallery-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 20px;
+}
+
+.border {
+    width: 180px;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+}
+
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+}
+
+.gallery-section .image {
+    flex: 100%;
+    overflow: hidden;
+    // cursor: pointer;
+}
+
+.gallery-section .image img {
+    width: 100%;
+    height: 100%;
+    // transition: 0.4s;
+}
+
+// .gallery-section .image:hover img {
+//     transform: scale(1.4) rotate(15deg);
+// }
+
+.contact {
+    width: 100%;
+    padding: 60px 0 0 0;
+
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #333;
+        font-size: 20px;
+    }
+
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 10px;
+        // font-family: oswald;
+        // overflow: hidden;
+    }
+
+    .contact-form-text {
+        display: block;
+        width: 90%;
+        margin: 16px auto;
+        border: 0;
+        padding: 20px 40px;
+        // outline: none;
+        transition: 0.2s;
+    }
+
+    textarea.contact-form-text {
+        resize: none;
+        height: 120px;
+    }
+
+    .contact-form-btn {
+        display: block;
+        margin: 30px auto;
+        background-color: black;
+        color: #fff;
+        padding: 12px 50px;
+        border-radius: 5%;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .contact-form-btn:hover {
+        background-color: #da1d85;
+        color: black;
+    }
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+
+    p {
+        text-align: center;
+        padding: 20px 0;
+        color: white;
+    }
+}

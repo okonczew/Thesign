@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: oswald;
+  font-size: 10px;
+  background-color: #f1f1f1;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background-size: cover;
+  background-position: 55% 50%;
+  position: relative;
+}
+
+header .nav {
+  position: fixed;
+  right: -170px;
+  top: 20px;
+  width: 30%;
+  height: 35%;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+header .nav ul {
+  list-style: none;
+}
+
+header .nav ul a {
+  display: block;
+  padding: 10%;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+header .fas {
+  display: none;
+}
+
+header .active {
+  right: 60px;
+}
+
+header i {
+  position: absolute;
+  right: 8%;
+  top: 5%;
+  font-size: 30px;
+}
+
+header i.show {
+  display: block;
+}
+
+header .header-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
+header .header-text h1 {
+  font-size: 50px;
+}
+
+header .header-text h2 {
+  font-size: 20px;
+}
+
+.about h2 {
+  padding-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 20px;
+}
+
+.about p {
+  padding: 0 20px 20px 20px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.about span {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.team {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ccc;
+  position: relative;
+}
+
+.team img.color {
+  position: absolute;
+  bottom: 0;
+  right: -5%;
+  height: 36%;
+  z-index: 1;
+  -webkit-animation: color 4s linear infinite;
+          animation: color 4s linear infinite;
+}
+
+.team img.gray {
+  position: absolute;
+  bottom: 0;
+  left: -70%;
+  height: 110%;
+  opacity: 0.2;
+  -webkit-animation: gray 4s linear infinite;
+          animation: gray 4s linear infinite;
+}
+
+.team .member {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-animation: text 4s linear infinite;
+          animation: text 4s linear infinite;
+}
+
+.team h3 {
+  font-size: 3rem;
+}
+
+.team h4 {
+  font-size: 1.5rem;
+}
+
+.gallery-section {
+  width: 100%;
+  padding: 60px 0 0 0;
+}
+
+.inner-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gallery-section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 20px;
+}
+
+.border {
+  width: 180px;
+  height: 4px;
+  background: #333;
+  margin: 60px auto;
+}
+
+.gallery-section .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery-section .image {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  overflow: hidden;
+}
+
+.gallery-section .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact {
+  width: 100%;
+  padding: 60px 0 0 0;
+}
+
+.contact h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 20px;
+}
+
+.contact .contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.contact .contact-form-text {
+  display: block;
+  width: 90%;
+  margin: 16px auto;
+  border: 0;
+  padding: 20px 40px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.contact textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.contact .contact-form-btn {
+  display: block;
+  margin: 30px auto;
+  background-color: black;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 5%;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.contact .contact-form-btn:hover {
+  background-color: #da1d85;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
