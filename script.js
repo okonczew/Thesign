@@ -24,8 +24,8 @@ const grayImgHtml = document.querySelector('.gray');
 const h1Html = document.querySelector('.member h3');
 const h2Html = document.querySelector('.member h4');
 
-const colorImages = ['Photos/s1.png', 'Photos/s2.png', 'Photos/s3.png'];
-const grayImages = ['Photos/s1a.png', 'Photos/s2a.png', 'Photos/s3a.png'];
+const colorImages = ['Images/s1.png', 'Images/s2.png', 'Images/s3.png'];
+const grayImages = ['Images/s1a.png', 'Images/s2a.png', 'Images/s3a.png'];
 const names = ['Natalie Baugart', 'Matthew Smith', 'Alex Dupoint'];
 const professions = ['Web designer', 'UX and UI Designer', 'Graphic designer'];
 

@@ -130,10 +130,12 @@
 
         p {
             font-size: 20px;
+            padding: 0 15%;
         }
 
         span {
             font-size: 25px;
+            padding: 60px 0;
         }
     }
 
@@ -409,7 +411,6 @@
 
             &:hover {
                 font-size: 22px;
-                color: pink;
             }
         }
 
@@ -437,11 +438,12 @@
 
         p {
             font-size: 20px;
+            padding: 0 20%;
         }
 
         span {
             font-size: 22px;
-            padding: 40px 0;
+            padding: 60px 0;
         }
     }
 

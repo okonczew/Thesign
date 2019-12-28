@@ -94,9 +94,11 @@
   }
   .about p {
     font-size: 20px;
+    padding: 0 15%;
   }
   .about span {
     font-size: 25px;
+    padding: 60px 0;
   }
   .team img.gray {
     left: -55%;
@@ -286,7 +288,6 @@
   }
   header .nav ul li a:hover {
     font-size: 22px;
-    color: pink;
   }
   header i {
     position: fixed;
@@ -303,10 +304,11 @@
   }
   .about p {
     font-size: 20px;
+    padding: 0 20%;
   }
   .about span {
     font-size: 22px;
-    padding: 40px 0;
+    padding: 60px 0;
   }
   .team img.color {
     right: 5%;
